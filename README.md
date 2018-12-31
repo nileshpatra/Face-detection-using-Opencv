@@ -5,4 +5,7 @@
   -- https://realpython.com/face-recognition-with-python/(Took the xml file from this repository directly)
   -- google for presidents image
   
+  - This is how the final output looks like :
+  <img 
+  
   
