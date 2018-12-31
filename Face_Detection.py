@@ -7,19 +7,18 @@ cascade_path = sys.argv[2]
 face_cascade = cv2.CascadeClassifier(cascade_path)
 
 image = cv2.imread(image_path)
-gray = cv2.cvtColor(image , cv2.COLOR_BGR2GRAY)
 
 faces = face_cascade.detectMultiScale(
-	gray,
+	image,
 	scaleFactor = 1.1,
-	minNeighbors = 6,
-	minSize = (30,30),
+	minNeighbors = 4,
+	minSize = (5,5),
 	flags = cv2.CASCADE_SCALE_IMAGE
 	)
 
 print('found faces!!')
 for x,y,w,h in faces:
-	cv2.rectangle(image , (x,y) , (x+w , y+h) , (0,255,0) , 2)
+	cv2.rectangle(image , (x,y) , (x+w , y+h) , (0,255,0) , 3)
 
 cv2.imshow('faces detected !' , image)
 cv2.waitKey(0)
