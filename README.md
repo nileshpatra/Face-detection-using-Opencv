@@ -1,4 +1,5 @@
 # Face-detection-using-Opencv
+[![Build Status](https://travis-ci.org/nileshpatra/Face-detection-using-Opencv.svg?branch=master)](https://travis-ci.org/nileshpatra/Face-detection-using-Opencv)
 
 - Implemented a very basic code for a basic face detection in open cv
 - sources/referred files :
