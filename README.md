@@ -6,6 +6,6 @@
   -- google for presidents image
   
  - This is how the final output looks like :
-  <img src = "https://github.com/nileshpatra/Face-detection-using-Opencv/blob/master/presidents_face.jpg">
+  <img src = "https://github.com/nileshpatra/Face-detection-using-Opencv/blob/master/faces%20detected%20!.png">
   
   
