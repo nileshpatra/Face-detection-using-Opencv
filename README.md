@@ -8,6 +8,7 @@
  - This is how the final output looks like :
   <img src = "https://github.com/nileshpatra/Face-detection-using-Opencv/blob/master/faces%20detected%20!.png">
   
-  -- for making this work , go to CLI and type python <python code file name> <image file name.jpg/png (depending on the extension> <xml file name.xml> 
+  -- for making this work , go to CLI and type python <python code file name> <image file name.jpg/png (depending on the extension> 
+    <xml file name.xml(exptension)> 
   
   
