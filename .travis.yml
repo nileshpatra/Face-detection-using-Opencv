@@ -1,0 +1,17 @@
+language: spython
+python :
+  - 3.6.0
+  
+before_install:
+  - sudo apt-get update
+
+before_script:
+  - git clone https://github.com/Itseez/opencv.git
+  - cd opencv
+  - mkdir build
+  - cd build
+  - cmake ..
+script:
+  ech 'python comipled'
+
+
