@@ -12,6 +12,6 @@ before_script:
   - cd build
   - cmake ..
 script:
-  ech 'python comipled'
+  echo 'python comipled'
 
 
